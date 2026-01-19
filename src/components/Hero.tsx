@@ -76,7 +76,7 @@ export function Hero({ onCtaClick, onKitClick }: HeroProps) {
               Quero a Kombi no meu evento
             </Button>
             <Button
-              onClick={() => {onKitClick}}
+              onClick={onKitClick}
               size="lg"
               variant="outline"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-6"
