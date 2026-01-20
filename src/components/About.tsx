@@ -118,7 +118,7 @@ export function About() {
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/20 h-[300px]">
             <img
-              src="src\components\images\2025-02-04.webp"
+              src="public/images/2025-02-04.webp"
               alt="Barris da cervejaria"
               className="w-full h-full object-cover"
             />

@@ -37,7 +37,7 @@ export function Header() {
             <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center">
               <span className="text-2xl">
                 <img
-                  src="src\components\images\cocar.png"
+                  src="public/images/cocar.png"
                   alt="Cerveja"
                   className="w-12 h-12"
               />

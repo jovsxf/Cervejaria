@@ -12,7 +12,7 @@ export function Hero({ onCtaClick, onKitClick }: HeroProps) {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="src\components\images\2025-02-04 (1).webp"
+          src="public/images/2025-02-04 (1).webp"
           alt="Congõi em eventos"
           className="w-full h-full object-cover"
         />
@@ -36,7 +36,7 @@ export function Hero({ onCtaClick, onKitClick }: HeroProps) {
           >
             <span className="text-5xl">
               <img
-                  src="src\components\images\cocar.png"
+                  src="public/images/cocar.png"
                   alt="Cerveja"
                   className="w-24 h-24"
               />
