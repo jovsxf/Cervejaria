@@ -95,7 +95,7 @@ export function KombiSection({ onCtaClick }: KombiSectionProps) {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-primary/20 transition-all group">
               <img
-                src="public/images/kombi.webp"
+                src="/images/kombi.webp"
                 alt="Kombi em festival"
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -105,7 +105,7 @@ export function KombiSection({ onCtaClick }: KombiSectionProps) {
             </div>
             <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-secondary/20 transition-all group">
               <img
-                src="public/images/kombi2.webp"
+                src="/images/kombi2.webp"
                 alt="Casamento"
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -115,7 +115,7 @@ export function KombiSection({ onCtaClick }: KombiSectionProps) {
             </div>
             <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-primary/20 transition-all group">
               <img
-                src="public/images/kombi.webp"
+                src="/images/kombi.webp"
                 alt="Festa privada"
                 className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
               />

@@ -34,7 +34,7 @@ export function FinalCTA({ onCtaClick }: FinalCTAProps) {
             >
               <span className="text-4xl">
                 <img
-                  src="src\components\images\cocar.png"
+                  src="/images/cocar.png"
                   alt="Cerveja"
                   className="w-20 h-20"
               />

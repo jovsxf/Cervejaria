@@ -7,7 +7,7 @@ export function Events() {
       title: "Brindando momentos"
     },
     {
-      url: "public/images/kit.webp",
+      url: "/images/kit.webp",
       title: "Festivais inesquecíveis"
     },
     {
@@ -15,15 +15,15 @@ export function Events() {
       title: "Cerveja na pressão perfeita"
     },
     {
-      url: "public/images/2025-02-04 (1).webp",
+      url: "/images/2025-02-04 (1).webp",
       title: "Casamentos memoráveis"
     },
     {
-      url: "public/images/casal.webp",
+      url: "/images/casal.webp",
       title: "Nossa Kombi icônica"
     },
     {
-      url: "public/images/casal (2).webp",
+      url: "/images/casal (2).webp",
       title: "Processo artesanal"
     }
   ];
