@@ -3,21 +3,15 @@
 import * as React from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { DayPicker } from "react-day-picker";
-
 import { cn } from "./utils";
 import { buttonVariants } from "./button";
-
-interface CalendarProps extends React.ComponentProps<typeof DayPicker> {
-  className?: string;
-  classNames?: Partial<React.ComponentProps<typeof DayPicker>["classNames"]>;
-}
 
 function Calendar({
   className,
   classNames,
   showOutsideDays = true,
   ...props
-}: CalendarProps) {
+}: React.ComponentProps<typeof DayPicker>) {
   return (
     <DayPicker
       showOutsideDays={showOutsideDays}
@@ -65,13 +59,24 @@ function Calendar({
         ...classNames,
       }}
       components={{
-        Chevron: ({ className, orientation }: { className?: string; orientation?: "left" | "right" }) =>
-          orientation === "left" ? (
-            <ChevronLeft className={className} />
-          ) : (
-            <ChevronRight className={className} />
-          ),
-      }}
+          Chevron: ({
+            className,
+            orientation,
+          }: {
+            className?: string;
+            orientation?: "left" | "right" | "up" | "down";
+          }) => {
+            switch (orientation) {
+              case "left":
+                return <ChevronLeft className={className} />;
+              case "right":
+                return <ChevronRight className={className} />;
+              default:
+                // fallback obrigatório (não pode retornar null)
+                return <ChevronRight className={className} />;
+            }
+          },
+              }}
       {...props}
     />
   );
